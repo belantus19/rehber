@@ -1,2 +1,2 @@
 Belantus#3519
-**Kodu kendinize göre ayarlayınız.--
+**Kodu kendinize göre ayarlayınız.**
