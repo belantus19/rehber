@@ -3,7 +3,9 @@ module.exports = {
 	name:'rehber',
 	description:'rehber çağırmaya yarar',
 	execute(client,message,args){
-         if message.channel.type == 'dm' return message.reply('Adamım Bu Komutu Dm de kullanmazsın')
+         if (message.channel.type === 'dm'){
+	  return message.reply('Adamım Bu Komutu Dm de kullanmazsın')
+	 } 
 	 var logkanali = 'MESAJINGİDECEĞİKANALID'
 	 var rehberid = 'REHBERROLÜID'
 	 var embed = new Discord.MessageEmbed()
